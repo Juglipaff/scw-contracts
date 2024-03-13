@@ -19,7 +19,7 @@
     "lint:fix": "npm run lint:ts-fix && npm run lint:sol-fix",
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
-    "coverage": "COVERAGE=1 DISABLE_VIA_IR=true hardhat coverage",
+    "coverage": "COVERAGE=1 DISABLE_VIA_IR=true hardhat coverage"
   },
   "keywords": [
     "Account Abstraction",
